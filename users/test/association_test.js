@@ -30,7 +30,7 @@ describe('Associations', () => {
   });
 
   it('saves a full relation tree', done => {
-    User.findOne({name:'Joe'})
+    User.findOne({ name: 'Joe' })
       .populate({
         path: 'blogposts',
         model: 'blogpost',
@@ -43,10 +43,12 @@ describe('Associations', () => {
           }
         }
       })
-      .then((user) => {
+      .then(user => {
         assert(user.name === 'Joe');
         assert(user.blogposts[0].title === 'JS is Great');
-        assert(user.blogposts[0].comments[0].content = 'Congrats on great post');
+        assert(
+          (user.blogposts[0].comments[0].content = 'Congrats on great post')
+        );
         assert(user.blogposts[0].comments[0].user.name === 'Joe');
         done();
       });

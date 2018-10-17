@@ -1,0 +1,50 @@
+{
+  "1": {
+    "email": "darrel@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120, 80]
+    }
+  },
+  "2": {
+    "email": "floyd@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120, 65]
+    }
+  },
+  "3": {
+    "email": "taylor@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [121, 18]
+    }
+  },
+  "4": {
+    "email": "elena@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [119, 82]
+    }
+  },
+  "5": {
+    "email": "georgia@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [120, 58]
+    }
+  },
+  "6": {
+    "email": "diana@test.com",
+    "driving": false,
+    "geometry": {
+      "type": "Point",
+      "coordinates": [121, 40]
+    }
+  }
+}

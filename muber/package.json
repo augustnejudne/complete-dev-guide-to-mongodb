@@ -11,11 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "mocha": "^5.2.0",
     "mongoose": "^5.3.3"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4",
-    "supertest": "^3.3.0"
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
   }
 }
